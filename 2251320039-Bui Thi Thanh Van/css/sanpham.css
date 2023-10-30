@@ -1,0 +1,169 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+  }
+  
+  .menu {
+    width: 50%;
+    background-color: #d25c17;
+    padding: 20px;
+    height: 500px;
+    position: sticky; /* Sử dụng 'position: sticky;' */
+  top: 0; /* Vị trí ban đầu của thẻ menu */
+  max-height: 100vh; /* Giới hạn chiều cao của thẻ menu */
+  overflow-y: auto; /* Bật cuộn nếu nội dung vượt quá chiều cao */
+  }
+  .header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #d25c17;
+    z-index: 1;
+  }
+  .header-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin-bottom: 50px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .product-list {
+    max-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .product {
+    flex-basis: calc(20% - 20px); /* Sửa đổi giá trị flex-basis để hiển thị 5 sản phẩm trong hàng ngang */
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .product img {
+    width: 80%;
+    height: auto;
+  }
+  
+  .product h2 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+  }
+  
+  .product p {
+    font-size: 1.2rem;
+  }
+  
+  .product:hover {
+    transform: scale(1.05);
+  }
+  
+  .product button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s;
+  }
+  
+  .product button:hover {
+    background-color: #0056b3;
+  }
+  header {
+    background-color: #ffffff;
+    color: #a50000;
+    padding: 20px;
+    text-align: start;
+
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+.acquy{
+  width: 5%;
+  display: flex;
+  justify-content: start;
+}
+.header-icons {
+  display: flex;
+  align-items: end;
+  gap: 0px;
+  justify-content: space-around;
+}
+
+.header-icons a {
+  color: #710c0c; /* Icon color */
+  font-size: 30px; /* Icon size */
+  text-decoration: none;
+  padding: 20px;
+  
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex: 1; /* Allow header to expand and take available space */
+  gap: 20px;
+}
+
+.header-icons {
+ 
+  align-items: center;
+  gap: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+header img {
+  max-width: 100px; /* Adjust as needed */
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  flex: 1; /* Allow <hr> to expand and take available space */
+  margin-left: 20px; /* Adjust spacing between <header> and <hr> */
+}
+
+/* You can add more styles if needed */
+.vietnam-flag {
+  max-width: 50px; /* Adjust the size as needed */
+  vertical-align: middle; /* Center it vertically with the text */
+}
+.body{
+  gap: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+  
